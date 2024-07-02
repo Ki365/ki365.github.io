@@ -16,6 +16,5 @@ This website will be updated shortly. Stay tuned!
 To run the hugo development server run:
 
 ```
-cd docs
-hugo server --buildDrafts --disableFastRender
+hugo server -s ./docs --buildDrafts --disableFastRender
 ```
