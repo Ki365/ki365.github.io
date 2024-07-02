@@ -71,7 +71,7 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: /logo.svg
+      path: images/logo.svg
       link: /
 
   search:
