@@ -1,7 +1,7 @@
 baseURL: https://ki365.github.io/docs/
 languageCode: en-us
 title: Ki365 Documentation
-contentDir: /content/docs
+disableKinds: home
 
 ### NOTICE: IF THIS IS ENABLED, LOGGING ON SITE VISITORS IS ENABLED
 
