@@ -1,8 +1,10 @@
 +++
 title = 'Funding'
 date = 2024-07-01T20:20:40-06:00
-draft = true
+draft = false
 comments = false
 +++
 
-This page will include information on funding of Ki365
+Ki365 is currently <b><i>not</b></i> taking any form of funding or payment.
+
+On the other hand, development work is always appreciated on the project! Click the GitHub icon above to go to the project page.
