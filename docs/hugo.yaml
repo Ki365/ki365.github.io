@@ -1,6 +1,7 @@
 baseURL: https://ki365.github.io/docs/
 languageCode: en-us
 title: Ki365 Documentation
+contentDir: /content/docs
 
 ### NOTICE: IF THIS IS ENABLED, LOGGING ON SITE VISITORS IS ENABLED
 
@@ -27,7 +28,7 @@ enableInlineShortcodes: true
 menu:
   main:
     - name: Documentation
-      pageRef: /docs
+      pageRef: /
       weight: 1
     - name: Developers
       pageRef: /devs
@@ -72,7 +73,7 @@ params:
     displayLogo: true
     logo:
       path: images/logo.svg
-      link: /docs/
+      link: /
 
   search:
     enable: true
