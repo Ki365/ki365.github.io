@@ -7,4 +7,10 @@ cascade = [ { type = "docs" } ]
 url = "/"
 +++
 
-This page will include information for the various users of Ki365
+Welcome to the Ki365 documentation! 🎉
+
+This website serves to introduce Ki365 concepts to the various users of the program.
+
+{{<callout type="warning">}}
+This website is under construction. If you find any missing content, please consider creating a [pull request](https://github.com/Ki365/ki365.github.io/pulls).
+{{</callout>}}
