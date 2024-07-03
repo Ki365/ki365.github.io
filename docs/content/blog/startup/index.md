@@ -1,5 +1,5 @@
 +++
-title = "Journey to... Engineering through Collaboration "
+title = "Starting up an Engineering Collaboration Project"
 date = 2024-07-01
 authors = [ {name = "OfficialKris", link = "https://github.com/OfficialKris", image = "https://github.com/OfficialKris.png"} ]
 tags = ["Engineering", "Software", "Collaboration"]
@@ -7,9 +7,16 @@ excludeSearch = false
 draft = true
 +++
 
+<div>
+  <img src="pexels-victor-pace.jpg">
+  <p class="caption">Photo by <a href="https://www.pexels.com/@victor-pace-2704890/">Victor Pace</a> from Pexels</p>
+</div>
+
+Cross discipline collaboration is challenging. Many organizations have spent enormous resources trying to build out a digital asset management network <b><i>that just works</i></b>. These companies have tried everything from computer networked drives to efficient PDM software. But these solutions are not good enough. They are not <i>new</i>, <i>pleasant</i>, or even <i>enjoyable</i>. But if they are functional, why bother standing up a new project? Because the data created with these softwares does not belong to the person or entity who created them. And that leaves me with almost no options as I begin to grow my team for my startup. So, there must be a better way?
+
 ## The Reason
 
-There is a very real need for collaboration-across disciplines, but in my opinion engineering discipline the most. I come from a background of intense collaboration to achieve seemingly impossible tasks. After completing that project, I have moved to other endevours. This has left me with not too many options in the field of engineering software management.
+There is a very real need for collaboration-across engineering disciplines. My background in engineering allowed me to achieve seemingly impossible tasks with only a medium size. However, this was facilitated through software which carried a large price-and I don't mean monetary.
 
 While there are many open source (or some optionally freeware) software to manage specfic engineering disciplines (electrical, mechanical, etc). There was no great platform for sharing these creations. Of course there was online sharing platforms like GrabCad (and I have used it extensively in the past), there was no platform for AUTHORING data. Where can I just push my engineering documents and be done with it?
 
