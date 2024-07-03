@@ -59,6 +59,9 @@ jobs:
             -d ./public/docs \
             --gc --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/docs"
+      - name: Move base website
+        run: |
+          mv ./main/* ./docs/public/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
