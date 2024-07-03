@@ -1,4 +1,4 @@
-baseURL: https://ki365.github.io/
+baseURL: https://ki365.github.io/docs/
 languageCode: en-us
 title: Ki365 Documentation
 
@@ -72,7 +72,7 @@ params:
     displayLogo: true
     logo:
       path: images/logo.svg
-      link: /
+      link: /docs/
 
   search:
     enable: true
