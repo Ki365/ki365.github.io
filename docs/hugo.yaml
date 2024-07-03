@@ -3,6 +3,8 @@ languageCode: en-us
 title: Ki365 Documentation
 disableKinds: home
 
+cleanDestinationDir: true
+
 ### NOTICE: IF THIS IS ENABLED, LOGGING ON SITE VISITORS IS ENABLED
 
 # services:
