@@ -3,6 +3,7 @@ title = 'Installation'
 date = 2024-07-01T20:16:28-06:00
 draft = false
 comments = false
+weight = 1
 +++
 
 Ki365 is a modern web application. As such, the installation process involves several industry standard tools for standing up a server instance:
