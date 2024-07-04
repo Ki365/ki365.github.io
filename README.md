@@ -24,5 +24,6 @@ hugo server -s ./docs --buildDrafts --disableFastRender
 To add a new page run:
 
 ```
+cd docs
 hugo new content/docs/{new_content_filename}.md
 ```
