@@ -6,40 +6,50 @@ comments = false
 weight = 1
 +++
 
-Ki365 is a modern web application. As such, the installation process involves several industry standard tools for standing up a server instance:
+Ki365 is a modern web application designed to help people collaborate on their designs.
 
-- A terminal (command prompt) interface
-- [Docker compose](https://www.docker.com/)
-- [Git Source Code Manager (SCM)](https://git-scm.com/)
+The installation process of this program requires a few industry standard tools:
+- A CLI (command line interface) terminal
+- A host computer which meets the [requirements](../requirements)
+- A decent internet connection
 
-To install a Ki365 instance:
+To install Ki365:
 
 {{% steps %}}
 
 ### Step 1
 
-Navigate to the computer terminal which will host Ki365.
+Navigate to the computer terminal which will host Ki365. This can be done through SSH.
+
+{{<callout type="warning">}}
+It is practically required to provision a server with access to at least 8Gb of RAM. Ki365 relies on a KiCad Docker container instance which has this requirement. 
+{{</callout>}}
 
 {{<callout type="info">}}
-A common computer operating system for servers is [Ubuntu Server LTS](https://ubuntu.com/server).
+It is not recommended to rely on SWAP space for extending the virtual memory. This may cause long processing times after each commit of a project. 
 {{</callout>}}
 
 ### Step 2
 
-Ensure docker compose is installed, run:
-
-```
-docker compose version
-```
-
-### Step 3
-
-Install the application by running:
+Install the application:
 
 ```
 git clone --depth 1 https://github.com/Ki365/Ki365.git
 cd Ki365
-docker compose up
+```
+
+### (Optional) Step 3
+
+Install the demo projects:
+```
+task setup
+```
+
+### Step 4
+
+Start the instance:
+```
+docker compose start
 ```
 
 {{% /steps %}}
@@ -49,5 +59,5 @@ docker compose up
 To shutdown Ki365, run the following in the same Ki365 directory from above:
 
 ```
-docker compose down
+docker compose stop
 ```

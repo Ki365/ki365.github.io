@@ -3,7 +3,7 @@ title = 'Terminology'
 date = 2024-07-04T00:19:41-06:00
 draft = false
 comments = false
-weight = 2
+weight = 3
 +++
 
 ## Introduction
